@@ -1,12 +1,12 @@
 # SYNOPSIS  
-[![Build Status](https://img.shields.io/travis/ethereumjs/ethereumjs-testing.svg?branch=master&style=flat-square)](https://travis-ci.org/ethereumjs/ethereumjs-testing)
-[![Gitter](https://img.shields.io/gitter/room/ethereum/ethereumjs-lib.svg?style=flat-square)]() or #ethereumjs on freenode  
+[![Build Status](https://img.shields.io/travis/happyucjs/happyucjs-testing.svg?branch=master&style=flat-square)](https://travis-ci.org/happyucjs/happyucjs-testing)
+[![Gitter](https://img.shields.io/gitter/room/happyucjs/happyucjs-lib.svg?style=flat-square)]() or #happyucjs on freenode  
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
-Testing utilities for the ethereumjs stack.
+Testing utilities for the happyucjs stack.
 
-Uses the offical [Ethereum Tests](https://github.com/ethereum/tests).
+Uses the offical [HappyUC Tests](https://github.com/happyuc-project/tests).
 
 To fetch the latest tests:
 ```
@@ -19,7 +19,7 @@ git pull origin develop
 ## API
 
 ```
-const testing = require('ethereumjs-testing')
+const testing = require('happyucjs-testing')
 ```
 
 #### `testing.getTestsFromArgs(testType, onFile, args = {})`
