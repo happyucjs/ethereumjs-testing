@@ -1,7 +1,7 @@
 {
-  "name": "happyucjs-testing",
-  "version": "1.0.4",
-  "description": "test utils for happyucjs-*",
+  "name": "icjs-testing",
+  "version": "0.0.1",
+  "description": "test utils for icjs-*",
   "main": "index.js",
   "scripts": {
     "lint": "standard",
@@ -10,22 +10,34 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/happyucjs/happyucjs-testing.git"
+    "url": "git+https://github.com/icjs/icjs-testing.git"
   },
-  "author": "mjbecze <mjbecze@gmail.com>",
+  "author": "IrChain Teat <contact@irchain.io>",
   "license": "MPL-2.0",
   "dependencies": {
     "asyncawait": "^1.0.6",
     "node-dir": "^0.1.16"
   },
   "devDependencies": {
-    "happyucjs-util": "/Users/dreamxyp/Transcend/happyuc-js/util/",
-    "standard": "^10.0.3",
+    "icjs-util": "^0.0.1",
+    "standard": "^11.0.1",
     "tape": "^4.8.0"
   },
   "standard": {
     "ignore": [
       "tests"
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/icjs/icjs-testing/issues"
+  },
+  "homepage": "https://github.com/icjs/icjs-testing#readme",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "keywords": [
+    "irchain",
+    "test"
+  ]
 }
